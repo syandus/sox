@@ -115,7 +115,7 @@ SOX_DL_LIB([twolame], [twolame.h], [twolame], [twolame_init])
 SOX_FMT_REQ([mp3], [MAD LAME TWOLAME])
 
 SOX_FMT_PKG([oggvorbis], [vorbisenc vorbisfile vorbis ogg])
-SOX_FMT_PKG([opus], [opusfile])
+SOX_FMT_PKG([opus], [opusfile opus])
 
 SOX_DL_LIB([libsndfile], [sndfile.h], [sndfile], [sf_open_virtual])
 SOX_FMT_REQ([sndfile], [LIBSNDFILE])
